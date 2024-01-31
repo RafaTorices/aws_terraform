@@ -1,0 +1,22 @@
+# Terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude .terraformrc and .terraformrc.json files
+.terraformrc
+.terraformrc.json
+
+# Exclude override files as they can contain senstive information
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos hcl
+*.hcl
